@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(features = {"src/test/java/resources/features"},
         glue = {"StepDef"},
-        tags = "@test",
+        tags = "@test1",
         plugin = {"pretty","html:target/cucumber-reports","rerun:target/failed_scenario.txt"})
 
 public class RunnerFile {
